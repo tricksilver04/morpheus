@@ -45,7 +45,7 @@ import com.google.api.server.spi.response.UnauthorizedException;
     issuers = {
         @ApiIssuer(
             name = "firebase",
-            issuer = "https://securetoken.google.com/YOUR-PROJECT-ID",
+            issuer = "https://securetoken.google.com/morpheus-209813",
             jwksUri =
                 "https://www.googleapis.com/service_accounts/v1/metadata/x509/securetoken@system"
                     + ".gserviceaccount.com"
